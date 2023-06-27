@@ -1,6 +1,8 @@
 #+title: Carp Theme
 #+author: David Goudou
 
+Carp is a dark, multicoloured theme for GNU Emacs
+
 * Screenshot
 
 [[screenshot.png]]

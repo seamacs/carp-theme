@@ -23,7 +23,7 @@
 ;; along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 ;;; Commentary:
-;; Carp theme for GNU Emacs
+;; Carp is a dark, multicoloured theme for GNU Emacs
 
 ;;; Code:
 
