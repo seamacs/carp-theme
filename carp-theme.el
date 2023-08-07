@@ -56,6 +56,7 @@
   (custom-theme-set-faces
    'carp
    `(default ((t (:foreground ,fg :background ,bg))))
+   `(display-time-date-and-time ((t (:foreground ,grey-2))))
    `(diredp-date-time ((t (:foreground ,fg))))
    `(dired-directory ((t (:foreground ,blue-0))))
    `(diredp-deletion ((t (:foreground ,red-0 :background ,bg))))
