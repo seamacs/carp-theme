@@ -31,6 +31,7 @@
 
 (let* ((fg "#efefef")
        (bg "#0A0A0A")
+       (shadow "#808898")
        (blue-0 "#78b0d3")
        (blue-1 "#178da8")
        (blue-2 "#6172c6")
@@ -98,8 +99,8 @@
    `(lazy-highlight ((t (:foreground ,red-1 :background unspecified))))
    `(match ((t (:background ,red-1))))
    `(minibuffer-prompt ((t (:foreground ,fg))))
-   `(mode-line ((t (:foreground ,fg :background ,black-2))))
-   `(mode-line-inactive ((t (:foreground ,grey-1 :background ,black-2))))
+   `(mode-line ((t (:background unspecified :box unspecified :overline ,shadow))))
+   `(mode-line-inactive ((t (:background unspecified :foreground ,shadow :box unspecified :overline ,shadow))))
    `(org-ellipsis ((t (:foreground ,blue-2 :underline nil))))
    `(org-block-begin-line ((t (:slant italic))))
    `(org-checkbox ((t (:foreground ,green-1))))
