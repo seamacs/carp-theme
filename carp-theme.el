@@ -4,7 +4,7 @@
 
 ;; Author: David Goudou <david.goudou@gmail.com>
 ;; Version: 0.0.1
-;; Package-Requires: ((emacs "27.1"))
+;; Package-Requires: ((emacs "29.1"))
 ;; Homepage: https://github.com/seamacs/carp-theme
 
 ;; This file is not part of GNU Emacs.
