@@ -127,7 +127,7 @@
    `(warning ((t (:foreground ,orange-0))))
    `(whitespace-trailing ((t (:background ,red-1))))
    `(cursor ((t (:foreground unspecified :background ,red-2))))
-   `(show-paren-match ((t (:background ,black-2 :foreground unspecified))))
+   `(show-paren-match ((t (:background ,black-2 :foreground ,fg))))
    `(rcirc-prompt ((t (:foreground ,fg))))
    `(rcirc-server ((t (:slant italic :foreground ,grey-0))))
    `(rcirc-url ((t (:foreground ,blue-0))))
